@@ -1,0 +1,15 @@
+*/settings.py
+config.py
+./config_eg/
+test.py
+.idea
+
+*.log
+./ven
+./dist/
+
+./data/
+./logs/
+*.log
+*.pdf
+*.json
