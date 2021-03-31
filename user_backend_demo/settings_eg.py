@@ -54,6 +54,8 @@ REST_FRAMEWORK = {
 }
 
 MIDDLEWARE = [
+    # 'corsheaders.middleware.CorsMiddleware',  # 跨域
+    # 'django.middleware.common.CommonMiddleware',  # 跨域
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -63,6 +65,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'middlewares.UserMiddleware.LoginMiddleware',  # 用户权限校验中间件
 ]
 
 ROOT_URLCONF = 'user_backend_demo.urls'

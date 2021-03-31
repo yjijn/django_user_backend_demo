@@ -1,0 +1,7 @@
+Django==2.2
+django-cors-headers==3.5.0
+django-mysql==3.8.1
+django-ranged-fileresponse==0.1.2
+djangorestframework==3.11.1
+mysqlclient==2.0.1
+PyMySQL==0.10.0
