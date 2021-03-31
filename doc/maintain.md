@@ -1,7 +1,7 @@
 
 ### 一、用户管理
 #### 创建超级用户
-
+1.命令行创建超级用户 python manage.py createsuperuser
 
 #### 用户管理平台 http://[user_backend_domain]/admin
 上述平台登录后可以进行用户增删改操作，并能通过用户详情页面配置权限
